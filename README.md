@@ -12,6 +12,11 @@ Resources to use for development
 
 https://www.youtube.com/watch?v=L55QYFnnrgo
 
+### Tut Point
+
+Next up:
+https://www.tutorialspoint.com/flask/flask_sessions.htm
+
 ## Python and Flask
 Set up the app with a default route and define hellow world function
 
