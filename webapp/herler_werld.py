@@ -10,4 +10,5 @@ if __name__ == "__main__":
     # Default host is localhost
     # Therefore we must pass '0.0.0.0' as host
     # in order to make the app accessible over the network
-    app.run(host='0.0.0.0') 
+    app.run(host='0.0.0.0', debug=True) 
+    # pass debug True in order to print out information
