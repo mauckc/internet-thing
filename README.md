@@ -9,5 +9,6 @@ Resources to use for development
 
 * Uploader: Adafruit Industries
 * Raspberry Pi & Python Internet "Thing" pt 1 with Tony D! @adafruit LIVE!
+
 https://www.youtube.com/watch?v=L55QYFnnrgo
 
