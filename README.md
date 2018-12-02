@@ -23,6 +23,28 @@ i2c tutorial using module smbus
 https://learn.sparkfun.com/tutorials/raspberry-pi-spi-and-i2c-tutorial/all
 
 
+Test if i2c is enabled
+```shell
+ls /dev/*i2c*
+```
+
+if the above entry does not return the following, then you will need to enable i2c interface in raspi-config
+```shell
+/dev/i2c-1
+```
+
+Once you have i2c enabled, download i2c-tools
+
+```shell
+sudo apt-get install -y i2c-tools
+```
+then you can check which i2c port you are hooked up to by running the following command
+```shell
+i2cdetect -y 1
+```
+
+A sample code for connecting to port 0x60 is shown below:
+
 ```python
 # i2ctest.py
 # A brief demonstration of the Raspberry Pi I2C interface, using the Sparkfun
